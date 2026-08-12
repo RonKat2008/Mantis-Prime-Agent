@@ -31,15 +31,17 @@ read_only = false
 owner = "KellisLab"
 name = "Mantis"
 read_only = true
-# TODO: set to a local checkout once cloned (see docs/FINAL-PLAN.md section 3).
-repo_root = ""
+# Local checkout. Note: git-grep-based call sites read the working tree, which
+# may sit on a feature branch; the graph freshness check uses origin/<base>
+# and is unaffected.
+repo_root = "M:/Mantis/Mantis"
 graph_path = "graphs/mantis-cochange.json"
 
 [[repos]]
 owner = "KellisLab"
 name = "MantisAPI"
 read_only = true
-repo_root = ""
+repo_root = "M:/Mantis/MantisAPI"
 graph_path = "graphs/mantisapi-cochange.json"
 
 [schedule]
