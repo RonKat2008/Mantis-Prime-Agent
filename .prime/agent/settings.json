@@ -1,8 +1,5 @@
 {
-  "shellPath": "C:\\Program Files\\Git\\bin\\bash.exe",
-  "skills": ["M:/Mantis/Mantis-Prime-Agent/skills/pr-review"],
-  "defaultProvider": "google",
-  "defaultModel": "gemini-flash-latest",
+  "skills": ["/Users/ronitkatikaneni/Projects/Mantis-Prime-Agent/skills/pr-review"],
   "retry": {
     "provider": {
       "maxRetries": 4
